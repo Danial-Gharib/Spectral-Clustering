@@ -1,0 +1,31 @@
+graph {
+	subgraph C0 {
+		N1 [fillcolor="#F0F8FF" style=filled]
+		N2 [fillcolor="#F0F8FF" style=filled]
+	}
+	subgraph C1 {
+		N6 [fillcolor="#FAEBD7" style=filled]
+		N7 [fillcolor="#FAEBD7" style=filled]
+	}
+	subgraph C2 {
+		N0 [fillcolor="#00FFFF" style=filled]
+		N3 [fillcolor="#00FFFF" style=filled]
+		N4 [fillcolor="#00FFFF" style=filled]
+		N5 [fillcolor="#00FFFF" style=filled]
+		N8 [fillcolor="#00FFFF" style=filled]
+		N9 [fillcolor="#00FFFF" style=filled]
+	}
+	N0 -- N1
+	N0 -- N2
+	N0 -- N5
+	N0 -- N8
+	N0 -- N9
+	N1 -- N2
+	N3 -- N4
+	N3 -- N5
+	N4 -- N5
+	N5 -- N6
+	N5 -- N7
+	N6 -- N7
+	N8 -- N9
+}
